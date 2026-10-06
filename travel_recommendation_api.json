@@ -1,0 +1,21 @@
+{
+  "countries": [
+    { "id": 1, "name": "Australia", "cities": [
+      { "name": "Sydney, Australia", "imageUrl": "images/sydney.svg", "description": "A vibrant harbour city known for its Opera House and Harbour Bridge." },
+      { "name": "Melbourne, Australia", "imageUrl": "images/melbourne.svg", "description": "A cultural capital famous for its arts, coffee and laneways." } ] },
+    { "id": 2, "name": "Japan", "cities": [
+      { "name": "Tokyo, Japan", "imageUrl": "images/tokyo.svg", "description": "A busy metropolis mixing modern skyscrapers with traditional temples." },
+      { "name": "Kyoto, Japan", "imageUrl": "images/kyoto.svg", "description": "Famous for classical shrines, gardens and traditional tea houses." } ] },
+    { "id": 3, "name": "Brazil", "cities": [
+      { "name": "Rio de Janeiro, Brazil", "imageUrl": "images/rio.svg", "description": "Known for its beaches, Carnival and the Christ the Redeemer statue." },
+      { "name": "Sao Paulo, Brazil", "imageUrl": "images/saopaulo.svg", "description": "A huge city with great food, museums and nightlife." } ] }
+  ],
+  "temples": [
+    { "id": 1, "name": "Angkor Wat, Cambodia", "imageUrl": "images/angkor.svg", "description": "A huge 12th century temple complex and the largest religious monument in the world." },
+    { "id": 2, "name": "Taj Mahal, India", "imageUrl": "images/tajmahal.svg", "description": "A white marble monument in Agra, built as a symbol of love." }
+  ],
+  "beaches": [
+    { "id": 1, "name": "Bora Bora, French Polynesia", "imageUrl": "images/borabora.svg", "description": "Crystal clear lagoons and overwater bungalows in the South Pacific." },
+    { "id": 2, "name": "Copacabana Beach, Brazil", "imageUrl": "images/copacabana.svg", "description": "A lively beach with golden sand, sports and a famous promenade." }
+  ]
+}

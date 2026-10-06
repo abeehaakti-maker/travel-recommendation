@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TravelBloom - Contact Us</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<nav><span class="brand">TravelBloom</span><a href="index.html">Home</a><a href="about.html">About Us</a><a href="contact.html" class="active">Contact Us</a></nav>
+<main><h1>Contact Us</h1><p>Send us a message and we will reply by email.</p>
+<form id="contactForm"><input type="text" id="name" placeholder="Your name" required>
+<input type="email" id="email" placeholder="Your email" required>
+<textarea id="message" rows="5" placeholder="Your message" required></textarea>
+<button type="submit">Submit</button></form><p id="thanks"></p></main>
+<script>document.getElementById('contactForm').addEventListener('submit',function(e){e.preventDefault();document.getElementById('thanks').textContent='Thank you for contacting us! We will email you soon.';this.reset();});</script>
+</body></html>
