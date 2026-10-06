@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TravelBloom - About Us</title><link rel="stylesheet" href="style.css"></head>
+<title>TravelBloom - Contact Us</title><link rel="stylesheet" href="style.css"></head>
 <body>
-<nav><span class="brand">TravelBloom</span><a href="index.html">Home</a><a href="about.html" class="active">About Us</a><a href="contact.html">Contact Us</a></nav>
-<main><h1>About Us</h1>
-<p>TravelBloom is a travel recommendation company that helps people find the best beaches, temples and countries to visit. Our mission is to make trip planning simple, inspiring and fun for every traveller.</p>
-<h2>Meet Our Team</h2>
-<div class="team"><div><h3>Nafeel Irshad</h3><p>Founder and Lead Developer</p></div><div><h3>Travel Experts</h3><p>Our guides research every destination.</p></div><div><h3>Support Team</h3><p>Here to answer your questions.</p></div></div>
-<h2>Guidance for Team Members</h2>
-<ul>
-  <li>Research each destination carefully before adding it as a recommendation.</li>
-  <li>Use accurate descriptions and clear, high quality photos.</li>
-  <li>Reply to customer messages within one working day.</li>
-  <li>Respect all travellers and local cultures in everything we write.</li>
-</ul>
-</main></body></html>
-
+<nav><span class="brand">TravelBloom</span><a href="index.html">Home</a><a href="about.html">About Us</a><a href="contact.html" class="active">Contact Us</a></nav>
+<main><h1>Contact Us</h1><p>Send us a message and we will reply by email.</p>
+<h2>Our Contact Information</h2>
+<p>Email: info@travelbloom.com</p>
+<p>Phone: +1 555 123 4567</p>
+<p>Address: 123 Travel Street, Sydney, Australia</p>
+<h2>Send Us a Message</h2>
+<form id="contactForm"><input type="text" id="name" placeholder="Your name" required>
+<input type="email" id="email" placeholder="Your email" required>
+<textarea id="message" rows="5" placeholder="Your message" required></textarea>
+<button type="submit">Submit</button></form><p id="thanks"></p></main>
+<script>document.getElementById('contactForm').addEventListener('submit',function(e){e.preventDefault();document.getElementById('thanks').textContent='Thank you for contacting us! We will email you soon.';this.reset();});</script>
+</body></html>
